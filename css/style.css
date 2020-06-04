@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/MontserratBlackItalic-x3728.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: Montserrat;
+  font-style: italic;
+  background-color: black;
+}
+
+h1 {
+  font-size: 10em;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+}
+
+h1 span:first-of-type {
+  color: red;
+}
+
+p {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 10px white;
+}
+
+.lorem {
+  font-size: 1em;
+  max-width: 1200px;
+  display: block;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 65vh;
+  text-shadow: none;
+
+}
+
+#p1 {
+  position: absolute;
+  margin-left: 40em;
+  margin-top: -8em;
+  animation: fade1 infinite 3s;
+}
+
+@keyframes fade1 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 90%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+#p2 {
+  margin-left: 30em;
+  margin-top: -13em;
+  animation: fade2 infinite 4.7s;
+}
+
+@keyframes fade2 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 90%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+#p3 {
+  margin-left: 15em;
+  margin-top: -8em;
+  animation: fade3 infinite 3.5s;
+}
+
+@keyframes fade3 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 90%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+#p4 {
+  margin-left: 1em;
+  margin-top: 22em;
+  animation: fade4 infinite 3.5s;
+}
+
+@keyframes fade4 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 60%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+#p5 {
+  margin-left: 1em;
+  margin-top: -23em;
+  animation: fade5 infinite 6.5s;
+}
+
+@keyframes fade5 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 60%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+#p6 {
+  margin-left: 45em;
+  margin-top: 12em;
+  animation: fade6 infinite 6.5s;
+}
+
+@keyframes fade6 {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 60%;
+  }
+
+  90% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
