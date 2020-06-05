@@ -23,6 +23,7 @@ html {
   margin-top: 20%;
   text-align: center;
   color: white;
+  /* text-decoration: underline; */
 }
 
 .header span:first-of-type {
@@ -43,7 +44,7 @@ html {
   position: absolute;
   margin-left: 40em;
   margin-top: -8em;
-  animation: fade1 infinite 3s;
+  animation: fade1 infinite 2s;
 }
 
 @keyframes fade1 {
@@ -158,7 +159,7 @@ html {
 /* ===Nederlandse rappers verdienen geld met drugs handel=== */
 #p5 {
   margin-left: 1em;
-  margin-top: -23em;
+  margin-top: -20em;
   animation: fade5 infinite 3.5s;
 }
 
@@ -216,7 +217,7 @@ html {
 /* ===Ze kunnen alleen maar rappen over dure kleding=== */
 #p7 {
   margin-left: 40em;
-  margin-top: 8em;
+  margin-top: 5em;
   animation: fade7 infinite 3.5s;
 }
 
@@ -245,7 +246,7 @@ html {
 /* ===De rappers zijn materialistisch=== */
 #p8 {
   margin-left: 15em;
-  margin-top: -13em;
+  margin-top: -10em;
   animation: fade8 infinite 5.5s;
 }
 
@@ -333,19 +334,33 @@ html {
 /* ================================================ */
 /*      	      	Styling downwards  		  					*/
 /* ================================================ */
-#downwards {
+#downwards {}
+
+.downwardsgroup {
+  color: white;
   max-width: 4em;
   fill: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 56vh;
+  padding-top: 50vh;
+  animation: drop infinite 2.5s;
+}
+@keyframes drop {
+  0% {
+    padding-top: 44vh;
+  }
+  100% {
+    padding-top: 47vh;
+}
 }
 
-#downwards:hover {
-  fill: red;
-  transition: ease 0.5s;
-  margin-top: 57vh;
+.downwardsgroup p {
+  margin-left: -1em;
+  text-align: center;
+  min-width: 6em;
 }
+
+
 
 /* ========Einde downwards=========== */
