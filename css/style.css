@@ -216,7 +216,7 @@ html {
 /* ===Ze kunnen alleen maar rappen over dure kleding=== */
 #p7 {
   margin-left: 40em;
-  margin-top: 10em;
+  margin-top: 8em;
   animation: fade7 infinite 3.5s;
 }
 
@@ -328,3 +328,24 @@ html {
     opacity: 0%;
   }
 }
+
+/* ========Einde fades=========== */
+/* ================================================ */
+/*      	      	Styling downwards  		  					*/
+/* ================================================ */
+#downwards {
+  max-width: 4em;
+  fill: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56vh;
+}
+
+#downwards:hover {
+  fill: red;
+  transition: ease 0.5s;
+  margin-top: 57vh;
+}
+
+/* ========Einde downwards=========== */
