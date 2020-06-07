@@ -344,23 +344,66 @@ html {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50vh;
-  animation: drop infinite 2.5s;
+  animation: drop infinite 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
+
 @keyframes drop {
-  0% {
-    padding-top: 44vh;
+  from {
+    transform: translateY(-0px)
   }
-  100% {
-    padding-top: 47vh;
-}
+
+  to {
+    transform: translateY(-10px)
+  }
 }
 
 .downwardsgroup p {
-  margin-left: -1em;
+  margin-left: -3em;
   text-align: center;
-  min-width: 6em;
+  min-width: 10em;
 }
 
-
-
 /* ========Einde downwards=========== */
+/* ================================================ */
+/*      	      	Styling Introtext  (test) 				*/
+/* ================================================ */
+.test {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  max-width: 50%;
+  margin-top: 5em;
+  transition: 1.5s ease-in;
+  font-family: 'Exo';
+  padding: 2em;
+}
+
+.test h1 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 1em 5em 1em 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  max-width: 50%;
+  border: 0;
+  color: black;
+  border-radius: 10px;
+}
+
+.tijdelijk {
+  transform: translateX(-200em);
+}
+
+/* ========Einde Introtext=========== */
