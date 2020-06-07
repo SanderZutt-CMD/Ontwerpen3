@@ -13,7 +13,7 @@
 }
 
 html {
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: italic;
   background-color: black;
 }
@@ -343,7 +343,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50vh;
+  padding-top: 59vh;
   animation: drop infinite 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -354,11 +354,11 @@ html {
 
 @keyframes drop {
   from {
-    transform: translateY(-0px)
+    transform: translateY(-10px)
   }
 
   to {
-    transform: translateY(-10px)
+    transform: translateY(-20px)
   }
 }
 
@@ -372,38 +372,19 @@ html {
 /* ================================================ */
 /*      	      	Styling Introtext  (test) 				*/
 /* ================================================ */
-.test {
+.intro {
   background-color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
-  max-width: 50%;
+  max-width: 63%;
   margin-top: 5em;
-  transition: 1.5s ease-in;
   font-family: 'Exo';
-  padding: 2em;
+  padding: 1em;
+  padding-left: 2em;
+  font-size: 1.2em;
 }
 
-.test h1 {
-  padding: 0;
-  margin: 0;
-}
-
-button {
-  padding: 1em 5em 1em 5em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  max-width: 50%;
-  border: 0;
-  color: black;
-  border-radius: 10px;
-}
-
-.tijdelijk {
-  transform: translateX(-200em);
-}
 
 /* ========Einde Introtext=========== */
