@@ -370,20 +370,76 @@ html {
 
 /* ========Einde downwards=========== */
 /* ================================================ */
-/*      	      	Styling Introtext  (test) 				*/
+/*      	    Styling teksten + invliegen      			*/
 /* ================================================ */
-.intro {
+.text-1 {
   background-color: white;
   display: block;
-  margin-left: auto;
+  margin-left: -60em;
   margin-right: auto;
-  margin-bottom: 2em;
   max-width: 63%;
-  margin-top: 5em;
+  margin-top: 10em;
   font-family: 'Exo';
   padding: 1em;
   padding-left: 2em;
   font-size: 1.2em;
+  transition: ease 0.5s;
+}
+
+.text-2 {
+  background-color: red;
+  display: block;
+  margin-left: -60em;
+  margin-right: auto;
+  max-width: 63%;
+  margin-top: -14em;
+  font-family: 'Exo';
+  padding: 1em;
+  padding-left: 2em;
+  font-size: 1.2em;
+  transition: ease 0.5s;
+}
+
+.invliegen {
+  margin-left: 15em;
+  transition: ease 0.5s;
+}
+
+.invliegen-2 {
+  margin-left: 15em;
+  transition: ease 0.5s;
 }
 
 /* ========Einde Introtext=========== */
+/* ================================================ */
+/*      	           breadcrumbs   		      				*/
+/* ================================================ */
+.bigbread {
+  position: absolute;
+  margin-left: 2em;
+}
+
+.dot-1, .dot-2, .dot-3, .dot-4, .dot-5, .dot-6, .dot-7, .dot-8, .dot-9 {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.textdotted {
+  color: red;
+  margin-left: 3em;
+  margin-top: -10em;
+  font-family: 'Exo';
+  opacity: 0;
+}
+
+.breadcrumbs:hover .textdotted {
+  margin-left: 5em;
+  opacity: 100%;
+
+}
+
+/* ========Einde breadcrumbs=========== */
